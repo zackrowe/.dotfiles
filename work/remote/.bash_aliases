@@ -1,2 +1,1 @@
-alias artisan='php artisan'
-alias dmigrate='artisan doctrine:migrations:migrate'
+. ../../shared/.bash_aliases
