@@ -1,1 +1,0 @@
-. ../../shared/.bash_aliases
