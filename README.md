@@ -1,6 +1,6 @@
 # Zack's dotfiles
 
-**Warning ⚠️** These dotfiles are meant for personal use only. 
+**⚠️ Warning ⚠️** These dotfiles are meant for personal use only. 
 
 ## Setup
 
