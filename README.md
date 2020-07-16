@@ -21,7 +21,7 @@ use `--remote` flag for remote environments.
 
 ## Aliases
 
-Below is a list of aliases for both my remote and local environments.
+Below is a list of aliases for remote and local environments.
 
 ### Local
 
