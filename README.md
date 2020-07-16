@@ -1,8 +1,8 @@
 # Zack's dotfiles
 
-My personal configuration files.
+**Warning ⚠️** These `dotfiles` are meant for personal use only. 
 
-## Installation
+## Setup
 
 Run the following
 
@@ -10,7 +10,7 @@ Run the following
 git clone https://github.com/zackrowe/dotfiles.git && cd dotfiles && source bootstrap.sh
 ```
 
-and to update navigate to your dotfiles directory and run
+To update navigate to your dotfiles directory and run
 
 ```
 source bootstrap.sh
