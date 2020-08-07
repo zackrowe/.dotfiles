@@ -2,6 +2,8 @@
 
 rm -rf ~/.bash_aliases;
 
+cd "$(dirname "${BASH_SOURCE}")";
+
 git pull origin master;
   
 if [ "$1" == "--remote" ]; then
