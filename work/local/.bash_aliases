@@ -1,4 +1,3 @@
-
 # Dotfiles
 alias dotr='source ~/dotfiles/bootstrap.sh --remote'
 alias dot='source ~/dotfiles/bootstrap.sh'
