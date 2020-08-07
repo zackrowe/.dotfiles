@@ -7,7 +7,7 @@ cd "$(dirname "${BASH_SOURCE}")";
 git pull origin master;
   
 if [ "$1" == "--remote" ]; then
-    cp ~/dotfiles/work/remote/.bash_aliases ~/.bash_aliases;
+    cp ./work/remote/.bash_aliases ~/.bash_aliases;
 else
-    cp ~/dotfiles/work/local/.bash_aliases ~/.bash_aliases;
+    cp ./work/local/.bash_aliases ~/.bash_aliases;
 fi;
