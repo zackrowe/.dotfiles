@@ -1,3 +1,6 @@
+# Dotfiles
+alias dot='bash ~/dotfiles/bootstrap.sh'
+
 # Artisan
 alias artisan='php artisan'
 
