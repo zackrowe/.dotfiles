@@ -9,10 +9,9 @@ git pull origin master;
 
 sudo apt-get install -y zsh
 
-if [ ! -f ~/.oh-my-zsh ]; then 
+if [ ! -d ~/.oh-my-zsh ]; then 
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)";
 fi
-
 
 cp ./.zshrc ~/.zshrc
   
