@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 rm -rf ~/.bash_aliases;
+rm -rf ~/.zshrc
 
 cd "$(dirname "${BASH_SOURCE}")";
 
