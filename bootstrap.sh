@@ -7,7 +7,9 @@ cd "$(dirname "${BASH_SOURCE}")";
 
 git pull origin master;
 
+if [ "$(uname)" == "Linux" ]; then
 sudo apt-get install -y zsh
+fi
 
 if [ ! -d ~/.oh-my-zsh ]; then 
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)";
