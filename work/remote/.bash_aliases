@@ -1,5 +1,5 @@
 # Dotfiles
-alias dot:remote='source ~/dotfiles/bootstrap.sh --remote'
+alias dotr='source ~/dotfiles/bootstrap.sh --remote'
 alias dot='source ~/dotfiles/bootstrap.sh'
 
 # Artisan
