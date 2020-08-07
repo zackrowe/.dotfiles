@@ -9,5 +9,3 @@ if [ "$1" == "--remote" ]; then
 else
     cp ~/dotfiles/work/local/.bash_aliases ~/.bash_aliases;
 fi;
-
-. ~/.bash_aliases;
