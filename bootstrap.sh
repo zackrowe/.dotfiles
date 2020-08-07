@@ -12,4 +12,4 @@ else
   cp work/local/.bash_aliases ~/.bash_aliases;
 fi;
 
-source ~/.bash_aliases
+. ~/.bash_aliases
