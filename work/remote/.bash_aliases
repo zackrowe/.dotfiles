@@ -1,6 +1,6 @@
 # Dotfiles
-alias dotr='source ~/dotfiles/bootstrap.sh --remote'
-alias dot='source ~/dotfiles/bootstrap.sh'
+alias dotr='bash ~/dotfiles/bootstrap.sh --remote && source ~/.bash_aliases'
+alias dot='bash ~/dotfiles/bootstrap.sh && source ~/.bash_aliases'
 
 # Artisan
 alias artisan='php artisan'
