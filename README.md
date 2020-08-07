@@ -23,6 +23,12 @@ use `--remote` flag for remote environments.
 
 Below is a list of aliases for remote and local environments.
 
+### Global (Available in both local and remote environments)
+
+`dot` - runs `source bootstrap.sh` command to refresh dotfiles.
+
+`dot` - runs `source bootstrap.sh --remote` command to refresh dotfiles for remote environment.
+
 ### Local
 
 `vup7` - runs `vagrant up` for **PHP 7.0** environment.
@@ -38,6 +44,7 @@ Below is a list of aliases for remote and local environments.
 
 `vhalt74` - runs `vagrant halt` for **PHP 7.4** environment.
 
+
 ### Remote
 
 `artisan` - runs `php artisan` command in current directory.
@@ -47,3 +54,4 @@ Below is a list of aliases for remote and local environments.
 `ddiff` - runs `artisan:doctrine:diff` in current directory.
 
 `watch` - runs `npm run watch-poll` in current directory.
+
