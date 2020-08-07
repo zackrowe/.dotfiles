@@ -5,6 +5,10 @@ rm -rf ~/.bash_aliases;
 cd "$(dirname "${BASH_SOURCE}")";
 
 git pull origin master;
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)";
+
+cp ./.zshrc ~/.zshrc
   
 if [ "$1" == "--remote" ]; then
     cp ./work/remote/.bash_aliases ~/.bash_aliases;
