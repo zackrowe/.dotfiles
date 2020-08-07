@@ -5,9 +5,9 @@ rm -rf ~/.bash_aliases;
 git pull origin master;
   
 if [ "$1" == "--remote" ]; then
-    cp work/remote/.bash_aliases ~/.bash_aliases;
+    cp ~/dotfiles/work/remote/.bash_aliases ~/.bash_aliases;
 else
-    cp work/local/.bash_aliases ~/.bash_aliases;
+    cp ~/dotfiles/work/local/.bash_aliases ~/.bash_aliases;
 fi;
 
 . ~/.bash_aliases;
