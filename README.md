@@ -27,7 +27,7 @@ Below is a list of aliases for remote and local environments.
 
 `dot` - runs `source bootstrap.sh` command to refresh dotfiles.
 
-`dot` - runs `source bootstrap.sh --remote` command to refresh dotfiles for remote environment.
+`dotr` - runs `source bootstrap.sh --remote` command to refresh dotfiles for remote environment.
 
 ### Local
 
