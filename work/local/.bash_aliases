@@ -1,6 +1,6 @@
 # Dotfiles
-alias dotr='source ~/dotfiles/bootstrap.sh --remote && source ~/.bash_aliases'
-alias dot='source ~/dotfiles/bootstrap.sh && source ~/.bash_aliases'
+alias dotr='bash ~/dotfiles/bootstrap.sh --remote && source ~/.bash_aliases'
+alias dot='bash ~/dotfiles/bootstrap.sh && source ~/.bash_aliases'
 
 alias vup7='cd ~/Projects/pinnacle-configuration/Vagrant/PinnacleWebServerPhp7/ && vagrant up'
 alias vup74='cd ~/Projects/pinnacle-configuration/Vagrant/PinnacleWebServerPhp74/ && vagrant up'
