@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+
+# Reverse scroll direction
+defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
+
+# Increase key repeat speed
+defaults write NSGlobalDomain KeyRepeat -int 1
+defaults write NSGlobalDomain InitialKeyRepeat -int 10
+
+# Update menubar to be hidden
+defaults write NSGlobalDomain _HIHideMenuBar -bool true
+
+# Automatically hide and show the Dock
+defaults write com.apple.dock autohide -bool true
