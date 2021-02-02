@@ -1,4 +1,5 @@
 tap "homebrew/bundle"
+tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "shivammathur/php"
