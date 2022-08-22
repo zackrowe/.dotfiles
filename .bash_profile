@@ -1,4 +1,4 @@
 export PATH=$PATH:~/.composer/vendor/bin
 
-source ~/.macos
-source ~/.bash_aliases
+source ~/.dotfiles/.macos
+source ~/.dotfiles/.bash_aliases
